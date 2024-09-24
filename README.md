@@ -1,3 +1,15 @@
+# Calipers Text to Speech reader
+
+This is a very simple app intended to work with bluetooth vernier calipers and similar
+devices which present as a bluetooth keyboard. Fundamentally, what this is is a textbox
+which says its contents when it receives an 'Enter' keypress, then readies itself for further input.
+
+This is a port of an app previously made and maintained by @NukitToBeSure on Twitter.
+She hasn't been able to keep it on the Play Store due to circumstances, so we're updating it
+and porting it to work on other platforms, primarily iOS.
+
+### Framework
+
 This is a Kotlin Multiplatform project targeting Android, iOS, Web, Desktop.
 
 * `/composeApp` is for code that will be shared across your Compose Multiplatform applications.
